@@ -54,9 +54,7 @@
         ],
         completedListItems: [],
         message: '',
-        itemAdded: false,
         newItem: '',
-        completeItem: '',
       }
     },
     methods: {
