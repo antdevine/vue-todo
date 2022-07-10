@@ -4,7 +4,7 @@
         {{listItem}}
 
         <button @click="$emit('remove', listItemId)">Remove</button>
-        <button @click="$emit('completed', listItemId)">Completed</button>
+        <button @click="$emit('complete', listItemId)">Completed</button>
     </div>
 </template>
 
